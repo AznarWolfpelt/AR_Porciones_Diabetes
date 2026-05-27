@@ -20,8 +20,8 @@ MonoBehaviour:
   - 
   - 
   portionLevels: 00000000010000000200000002000000
-  portionModels:
-  - {fileID: 2048091813647805959, guid: 75fd2e1531b633b4ab085281ff7254a6, type: 3}
-  - {fileID: 6076030597740210583, guid: ffbee42ff9b920349a42b273cc4afa12, type: 3}
-  - {fileID: 4259354664504135967, guid: b79462575e0470f4383b5b5bcfcab07e, type: 3}
-  - {fileID: 2624526502992054087, guid: e5f30df501017b945b584eb0c616c022, type: 3}
+  portionObjectNames:
+  - arroz_plato_1
+  - arroz_plato_2
+  - arroz_plato_3
+  - arroz_plato_4

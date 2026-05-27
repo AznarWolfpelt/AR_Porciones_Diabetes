@@ -20,5 +20,5 @@ public class FoodData : ScriptableObject
     }
 
     [Header("Food Models")]
-    public GameObject[] portionModels = new GameObject[4];
+    public string[] portionObjectNames = new string[4];
 }

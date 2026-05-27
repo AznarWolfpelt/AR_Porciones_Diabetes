@@ -42,6 +42,9 @@ public class TapToPlace : MonoBehaviour
 
             // Instanciar objeto
             spawnedObject = Instantiate(objectPrefab, hitPose.position, Quaternion.identity);
+            FoodManager manager = FindFirstObjectByType<FoodManager>();
+
+            manager.foodAnchor = spawnedObject.transform.Find("FoodAnchor");
             Debug.Log("Objeto colocado");
 
             // Ocultar todos los planos

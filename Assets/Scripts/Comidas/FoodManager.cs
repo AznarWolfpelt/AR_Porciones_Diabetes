@@ -13,7 +13,8 @@ public class FoodManager : MonoBehaviour
 
     [Header("Current Food")]
     public FoodData currentFood;
-
+    
+    public Transform foodAnchor;
     private int currentPortion = 0;
 
     public void SelectFood(FoodData food)
@@ -29,14 +30,21 @@ public class FoodManager : MonoBehaviour
         currentPortion = portionIndex;
 
         // Apagar todos los modelos
-        foreach (GameObject model in currentFood.portionModels)
+        for (int i = 0; i < foodAnchor.childCount; i++)
         {
-            if (model != null)
-                model.SetActive(false);
+            foodAnchor.GetChild(i).gameObject.SetActive(false);
         }
 
-        // Activar modelo actual
-        currentFood.portionModels[portionIndex].SetActive(true);
+        Transform selectedFood = foodAnchor.Find(currentFood.portionObjectNames[portionIndex]);
+
+        if (selectedFood != null)
+        {
+            selectedFood.gameObject.SetActive(true);
+        }
+        else
+        {
+            Debug.Log("NO ENCONTRADO");
+        }
 
         // Actualizar UI
         titleText.text = currentFood.foodName;
