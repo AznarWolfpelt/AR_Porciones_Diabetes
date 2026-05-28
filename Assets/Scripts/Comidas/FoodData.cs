@@ -3,6 +3,9 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "FoodData", menuName = "Food/Food Data")]
 public class FoodData : ScriptableObject
 {
+    [Header("Test")]
+    public int recommendedPortionIndex;
+
     [Header("Basic Info")]
     public string foodName;
     public Sprite foodImage;

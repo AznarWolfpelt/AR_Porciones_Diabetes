@@ -47,32 +47,62 @@ public class FoodManager : MonoBehaviour
         }
 
         // Actualizar UI
-        titleText.text = currentFood.foodName;
+        if(titleText != null)
+        {
+            titleText.text = currentFood.foodName;
+        }
 
-        foodImage.sprite = currentFood.foodImage;
+        if(foodImage != null)
+        {
+            foodImage.sprite = currentFood.foodImage;
+        }
 
-        infoText.text = currentFood.portionInfo[portionIndex];
+        if(infoText != null)
+        {
+            infoText.text = currentFood.portionInfo[portionIndex];
+        }
 
-            switch ((FoodData.PortionLevel)currentFood.portionLevels[portionIndex])
+        switch (currentFood.portionLevels[portionIndex])
         {
             case FoodData.PortionLevel.Recommended:
 
-                recommendedText.text = "Recommended";
-                infoPanelBackground.color = Color.green;
+                if (recommendedText != null)
+                {
+                    recommendedText.text = "Recommended";
+                }
+
+                if (infoPanelBackground != null)
+                {
+                    infoPanelBackground.color = Color.green;
+                }
 
                 break;
 
             case FoodData.PortionLevel.Moderate:
 
-                recommendedText.text = "Moderate";
-                infoPanelBackground.color = Color.yellow;
+                if (recommendedText != null)
+                {
+                    recommendedText.text = "Moderate";
+                }
+
+                if (infoPanelBackground != null)
+                {
+                    infoPanelBackground.color = Color.yellow;
+                }
 
                 break;
 
             case FoodData.PortionLevel.NotRecommended:
 
-                recommendedText.text = "Not Recommended";
-                infoPanelBackground.color = Color.red;
+                if (recommendedText != null)
+                {
+                    recommendedText.text = "Not Recommended";
+                }
+
+                if (infoPanelBackground != null)
+                {
+                    infoPanelBackground.color = Color.red;
+                }
 
                 break;
         }
