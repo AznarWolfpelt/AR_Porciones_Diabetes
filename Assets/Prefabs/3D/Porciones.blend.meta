@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Carrots
+    second: {fileID: 2100000, guid: 85d658dfcf8eb874caf9328de1284b02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: CoffeeText1
     second: {fileID: 2100000, guid: 25789e87f1d4e9e41abed46db3ee1d92, type: 2}
   - first:
@@ -22,8 +27,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Frejol
+    second: {fileID: 2100000, guid: 40466a3d9f719c641beae3691985b065, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: White Rice Grains
     second: {fileID: 2100000, guid: 5d44b8fd22b8d76478b2e9276cf42971, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ZanahoriaRallada
+    second: {fileID: 2100000, guid: 88aedce585445ad42832fe4754f940e2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

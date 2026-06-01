@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d624ae89abebb6642a4ede17edf8a6ba, type: 3}
+  m_Name: ARROZ
+  m_EditorClassIdentifier: Assembly-CSharp::AlimentoData
+  nombre: Arroz
+  categoria: 1
+  foto: {fileID: -8712417320732967799, guid: 847e5cb430c1c0a47bdf17741a0e594b, type: 3}
+  infoUnCuarto: "Carbohidratos aprox: 22g\nNivel gluc\xE9mico: Medio/Alto\nPorci\xF3n
+    recomendada: 1/4 de plato\nRecomendaci\xF3n de consumo: \xA1Porci\xF3n ideal!
+    Te da la energ\xEDa necesaria sin causar un exceso de az\xFAcar en la sangre."
+  infoDosCuartos: "Carbohidratos aprox: 44g\nNivel gluc\xE9mico: Medio/Alto\nPorci\xF3n
+    recomendada: 1/4 de plato\nRecomendaci\xF3n de consumo: Cuidado, es el doble
+    de la porci\xF3n recomendada. Puede causar sue\xF1o despu\xE9s de comer y picos
+    de glucosa."
+  infoTresCuartos: "Carbohidratos aprox: 66g\nNivel gluc\xE9mico: Medio/Alto\nPorci\xF3n
+    recomendada: 1/4 de plato\nRecomendaci\xF3n de consumo: Exceso de carbohidratos.
+    El cuerpo almacenar\xE1 la energ\xEDa que no uses en forma de grasa."
+  infoPlatoLleno: "Carbohidratos aprox: 88g\nNivel gluc\xE9mico: Medio/Alto\nPorci\xF3n
+    recomendada: 1/4 de plato\nRecomendaci\xF3n de consumo: Nada recomendado. Riesgo
+    alto de pico de glucosa e insulina. Faltan nutrientes esenciales."

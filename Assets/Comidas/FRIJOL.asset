@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d624ae89abebb6642a4ede17edf8a6ba, type: 3}
+  m_Name: FRIJOL
+  m_EditorClassIdentifier: Assembly-CSharp::AlimentoData
+  nombre: Frijol
+  categoria: 3
+  foto: {fileID: -1488604354889953834, guid: 5d84f4df2934e35498c5a7f066ec8f7c, type: 3}
+  infoUnCuarto: "Carbohidratos aprox: 20g\nNivel gluc\xE9mico: Bajo\nPorci\xF3n recomendada:
+    1/4 de plato\nRecomendaci\xF3n de consumo: \xA1Porci\xF3n ideal! Aporta prote\xEDna
+    vegetal, hierro y fibra de excelente calidad."
+  infoDosCuartos: "Carbohidratos aprox: 40g\nNivel gluc\xE9mico: Bajo\nPorci\xF3n
+    recomendada: 1/4 de plato\nRecomendaci\xF3n de consumo: Porci\xF3n alta. Si no
+    te sirves arroz u otro cereal, esta cantidad es aceptable."
+  infoTresCuartos: "Carbohidratos aprox: 60g\nNivel gluc\xE9mico: Bajo\nPorci\xF3n
+    recomendada: 1/4 de plato\nRecomendaci\xF3n de consumo: Digesti\xF3n dif\xEDcil.
+    Esta cantidad de fibra puede provocar fuertes molestias estomacales."
+  infoPlatoLleno: "Carbohidratos aprox: 80g\nNivel gluc\xE9mico: Bajo\nPorci\xF3n
+    recomendada: 1/4 de plato\nRecomendaci\xF3n de consumo: Exceso cal\xF3rico y
+    de carbohidratos. Faltan vegetales frescos y vitaminas."

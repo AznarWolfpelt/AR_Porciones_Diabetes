@@ -13,6 +13,12 @@ public class FoodManager : MonoBehaviour
 
     [Header("Current Food")]
     public FoodData currentFood;
+
+    [Header("Colores de Estado")]
+    public Color recommendedColor = Color.green;
+    public Color acceptableColor = new Color(0.4f, 0.8f, 1f);
+    public Color moderateColor = Color.yellow;
+    public Color notRecommendedColor = Color.red;
     
     public Transform foodAnchor;
     private int currentPortion = 0;
@@ -68,12 +74,26 @@ public class FoodManager : MonoBehaviour
 
                 if (recommendedText != null)
                 {
-                    recommendedText.text = "Recommended";
+                    recommendedText.text = "Recomendado";
                 }
 
                 if (infoPanelBackground != null)
                 {
-                    infoPanelBackground.color = Color.green;
+                    infoPanelBackground.color = recommendedColor;
+                }
+
+                break;
+
+            case FoodData.PortionLevel.Acceptable:
+
+                if (recommendedText != null)
+                {
+                    recommendedText.text = "Aceptable";
+                }
+
+                if (infoPanelBackground != null)
+                {
+                    infoPanelBackground.color = acceptableColor;
                 }
 
                 break;
@@ -82,12 +102,12 @@ public class FoodManager : MonoBehaviour
 
                 if (recommendedText != null)
                 {
-                    recommendedText.text = "Moderate";
+                    recommendedText.text = "Moderado";
                 }
 
                 if (infoPanelBackground != null)
                 {
-                    infoPanelBackground.color = Color.yellow;
+                    infoPanelBackground.color = moderateColor;
                 }
 
                 break;
@@ -96,12 +116,12 @@ public class FoodManager : MonoBehaviour
 
                 if (recommendedText != null)
                 {
-                    recommendedText.text = "Not Recommended";
+                    recommendedText.text = "No recomendado";
                 }
 
                 if (infoPanelBackground != null)
                 {
-                    infoPanelBackground.color = Color.red;
+                    infoPanelBackground.color = notRecommendedColor;
                 }
 
                 break;

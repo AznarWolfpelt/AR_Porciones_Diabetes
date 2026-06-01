@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Home.unity
     guid: 33cac3f06a510fb428c1178cf2c84cb9
   - enabled: 1
+    path: Assets/Scenes/Biblioteca.unity
+    guid: a86ad129030e27145898f3944e7fc887
+  - enabled: 1
     path: "Assets/Scenes/Men\xFA entrenar.unity"
     guid: 3a0500a8c4df22e4987ecdd60a3df81f
   - enabled: 1

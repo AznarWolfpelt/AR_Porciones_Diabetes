@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d624ae89abebb6642a4ede17edf8a6ba, type: 3}
+  m_Name: ZANAHORIA
+  m_EditorClassIdentifier: Assembly-CSharp::AlimentoData
+  nombre: Zanahoria
+  categoria: 0
+  foto: {fileID: 1395559145925710088, guid: 9f86df194c519c7439ecec99d1a91e4e, type: 3}
+  infoUnCuarto: "Carbohidratos aprox: 6 g\nNivel gluc\xE9mico: Bajo\nPorci\xF3n recomendada:
+    2/4 de plato\n\nEs una buena cantidad de vegetales para acompa\xF1ar la comida.
+    Aporta fibra, vitaminas y color al plato."
+  infoDosCuartos: "Carbohidratos aprox: 12 g\nNivel gluc\xE9mico: Bajo\nPorci\xF3n
+    recomendada: 2/4 de plato\n\n\xA1Porci\xF3n ideal! Los vegetales deber\xEDan
+    ocupar aproximadamente la mitad del plato para contribuir a una alimentaci\xF3n
+    equilibrada."
+  infoTresCuartos: "Carbohidratos aprox: 18 g\nNivel gluc\xE9mico: Bajo\nPorci\xF3n
+    recomendada: 2/4 de plato\n\nSigue siendo una cantidad saludable de vegetales,
+    pero deja menos espacio para prote\xEDnas y otros alimentos importantes."
+  infoPlatoLleno: "Carbohidratos aprox: 24 g\nNivel gluc\xE9mico: Bajo\nPorci\xF3n
+    recomendada: 2/4 de plato\n\nAunque la zanahoria es nutritiva, una comida compuesta
+    \xFAnicamente por vegetales no aporta todos los nutrientes necesarios para una
+    alimentaci\xF3n equilibrada."

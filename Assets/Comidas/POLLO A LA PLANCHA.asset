@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d624ae89abebb6642a4ede17edf8a6ba, type: 3}
+  m_Name: POLLO A LA PLANCHA
+  m_EditorClassIdentifier: Assembly-CSharp::AlimentoData
+  nombre: Pollo a la plancha
+  categoria: 2
+  foto: {fileID: 2438386074225829219, guid: 6d8f1c759de0f3f4eb7aeb3c86fda383, type: 3}
+  infoUnCuarto: "Carbohidratos aprox: 0g\nNivel gluc\xE9mico: Cero\nPorci\xF3n recomendada:
+    1/4 de plato\nRecomendaci\xF3n de consumo: \xA1Porci\xF3n ideal! Aporta la cantidad
+    perfecta de amino\xE1cidos para mantener tus m\xFAsculo"
+  infoDosCuartos: "Carbohidratos aprox: 0g\nNivel gluc\xE9mico: Cero\nPorci\xF3n
+    recomendada: 1/4 de plato\nRecomendaci\xF3n de consumo: \xA1Porci\xF3n ideal!
+    Aporta la cantidad perfecta de amino\xE1cidos para mantener tus m\xFAsculo"
+  infoTresCuartos: "Carbohidratos aprox: 0g\nNivel gluc\xE9mico: Cero\nPorci\xF3n
+    recomendada: 1/4 de plato\nRecomendaci\xF3n de consumo: Demasiada prote\xEDna.
+    Tu cuerpo no puede absorber tanta de una sola vez; necesitas equilibrar con fibra."
+  infoPlatoLleno: "Carbohidratos aprox: 0g\nNivel gluc\xE9mico: Cero\nPorci\xF3n
+    recomendada: 1/4 de plato\nRecomendaci\xF3n de consumo: Plato totalmente desequilibrado.
+    Falta energ\xEDa (carbohidratos) y vitaminas (verduras)."

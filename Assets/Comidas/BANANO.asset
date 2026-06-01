@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d624ae89abebb6642a4ede17edf8a6ba, type: 3}
+  m_Name: BANANO
+  m_EditorClassIdentifier: Assembly-CSharp::AlimentoData
+  nombre: Banano
+  categoria: 4
+  foto: {fileID: 2456428759027282185, guid: 45b4d45b95a49cf4eb75ec3d8a0529c7, type: 3}
+  infoUnCuarto: "Carbohidratos aprox: 27g\nNivel gluc\xE9mico: Medio\nPorci\xF3n
+    recomendada: 1 unidad mediana (equivale aprox a 1/4 visual)\nRecomendaci\xF3n
+    de consumo: Excelente como postre o snack antes de hacer ejercicio por su energ\xEDa
+    r\xE1pida y potasio."
+  infoDosCuartos: "Carbohidratos aprox: 54g\nNivel gluc\xE9mico: Medio\nPorci\xF3n
+    recomendada: 1 unidad mediana\nRecomendaci\xF3n de consumo: Doble porci\xF3n
+    de fruta. Es mejor variar el tipo de fruta para obtener diferentes vitaminas."
+  infoTresCuartos: "Carbohidratos aprox: 81g\nNivel gluc\xE9mico: Medio\nPorci\xF3n
+    recomendada: 1 unidad mediana\nRecomendaci\xF3n de consumo: Cuidado, es mucha
+    fructosa (az\xFAcar natural) para digerir de golpe."
+  infoPlatoLleno: "Carbohidratos aprox: 108g\nNivel gluc\xE9mico: Medio\nPorci\xF3n
+    recomendada: 1 unidad mediana\nRecomendaci\xF3n de consumo: No recomendado. Provocar\xE1
+    una r\xE1pida subida de az\xFAcar en sangre seguida de fatiga."

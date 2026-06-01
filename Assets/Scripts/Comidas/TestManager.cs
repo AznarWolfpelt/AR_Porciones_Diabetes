@@ -14,9 +14,11 @@ public class TestManager : MonoBehaviour
     private List<FoodData> testFoods = new List<FoodData>();
 
     [Header("Question UI")]
+    public TMP_Text foodNameText;
     public TMP_Text questionText;
     public Image foodImage;
     public TMP_Text progressText;
+    public Button confirmButton;
 
     [Header("Result UI")]
     public GameObject resultPanel;
@@ -58,15 +60,17 @@ public class TestManager : MonoBehaviour
     void ShowQuestion()
     {
         selectedPortion = -1;
+        confirmButton.interactable = false;
 
         FoodData currentFood = testFoods[currentQuestion];
+        foodNameText.text = currentFood.foodName;
 
-        questionText.text = "What is the recommended portion?";
+        questionText.text = "¿Cuál es la porción recomendada?";
 
         foodImage.sprite = currentFood.foodImage;
 
         progressText.text =
-            "Question " + (currentQuestion + 1) + "/"
+            "Pregunta " + (currentQuestion + 1) + "/"
             + testFoods.Count;
 
         ClearPlate();
@@ -75,6 +79,7 @@ public class TestManager : MonoBehaviour
     public void SelectPortion(int portionIndex)
     {
         selectedPortion = portionIndex;
+        confirmButton.interactable = true;
 
         foodManager.SelectFood(testFoods[currentQuestion]);
 
@@ -97,18 +102,20 @@ public class TestManager : MonoBehaviour
             score++;
 
             resultLines.Add(
-                "✔ " +
+                "<color=green>" +
                 currentFood.foodName +
-                " - Correct"
+                " - Correcto</color>"
             );
         }
         else
         {
             resultLines.Add(
-                "❌ " +
+                "<color=red>" +
                 currentFood.foodName +
-                " - Correct answer: " +
-                PortionToText(currentFood.recommendedPortionIndex)
+                " - Incorrecto</color>" +
+                " (Respuesta correcta: " +
+                PortionToText(currentFood.recommendedPortionIndex) +
+                ")"
             );
         }
 
@@ -159,7 +166,7 @@ public class TestManager : MonoBehaviour
             case 0: return "1/4";
             case 1: return "2/4";
             case 2: return "3/4";
-            case 3: return "Full";
+            case 3: return "1";
 
             default: return "";
         }
@@ -167,23 +174,29 @@ public class TestManager : MonoBehaviour
 
     string GetFinalMessage(int finalScore)
     {
-        switch (finalScore)
+        float percentage = (float)finalScore / testFoods.Count;
+
+        if (percentage == 1f)
         {
-            case 5:
-                return "Excellent! One step closer to healthy habits.";
-
-            case 4:
-                return "Very good job!";
-
-            case 3:
-                return "Good effort! Keep practicing.";
-
-            case 2:
-                return "Keep learning portion sizes.";
-
-            default:
-                return "Try again and keep practicing.";
+            return "¡Excelente trabajo!\nHas identificado correctamente todas las porciones recomendadas.";
         }
+
+        if (percentage >= 0.75f)
+        {
+            return "¡Muy buen trabajo!\nReconoces la mayoría de las porciones recomendadas.";
+        }
+
+        if (percentage >= 0.5f)
+        {
+            return "¡Buen esfuerzo!\nYa identificas varias porciones correctamente.";
+        }
+
+        if (percentage >= 0.25f)
+        {
+            return "Sigue practicando.\nReconocer las porciones adecuadas toma tiempo.";
+        }
+
+        return "No te desanimes.\nCada intento ayuda a aprender.";
     }
 
     void ShuffleList(List<FoodData> list)

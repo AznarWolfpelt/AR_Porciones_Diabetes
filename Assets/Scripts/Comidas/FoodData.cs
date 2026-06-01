@@ -18,6 +18,7 @@ public class FoodData : ScriptableObject
     public enum PortionLevel
     {
         Recommended,
+        Acceptable,
         Moderate,
         NotRecommended
     }

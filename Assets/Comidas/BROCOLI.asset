@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d624ae89abebb6642a4ede17edf8a6ba, type: 3}
+  m_Name: BROCOLI
+  m_EditorClassIdentifier: Assembly-CSharp::AlimentoData
+  nombre: "Br\xF3coli"
+  categoria: 0
+  foto: {fileID: -2888017395154103341, guid: 38996bf24981af045af85a7a8cc49949, type: 3}
+  infoUnCuarto: "Carbohidratos aprox: 2.5g\nNivel gluc\xE9mico: Bajo\nPorci\xF3n
+    recomendada: 2/4 de plato (la mitad)\n\nRecomendaci\xF3n de consumo: Es una porci\xF3n
+    peque\xF1a. \nLo ideal es aumentar la cantidad de verduras frescas o cocidas
+    para mayor saciedad."
+  infoDosCuartos: "Carbohidratos aprox: 5g\nNivel gluc\xE9mico: Bajo\nPorci\xF3n
+    recomendada: 2/4 de plato (la mitad)\nRecomendaci\xF3n de consumo: \xA1Porci\xF3n
+    perfecta! Cubrir la mitad de tu plato con verduras aporta la fibra y vitaminas
+    que necesitas sin picos de glucosa."
+  infoTresCuartos: "Carbohidratos aprox: 7.5g\nNivel gluc\xE9mico: Bajo\nPorci\xF3n
+    recomendada: 2/4 de plato (la mitad)\n\nRecomendaci\xF3n de consumo: Muy saludable
+    y lleno de fibra, pero aseg\xFArate de dejar espacio en tu est\xF3mago para tu
+    porci\xF3n de prote\xEDnas."
+  infoPlatoLleno: "Carbohidratos aprox: 10g\nNivel gluc\xE9mico: Bajo\n\nPorci\xF3n
+    recomendada: 2/4 de plato (la mitad)\nRecomendaci\xF3n de consumo: Aunque es
+    muy sano, comer solo br\xF3coli no es una comida balanceada. Te faltan prote\xEDnas
+    y grasas saludables."
