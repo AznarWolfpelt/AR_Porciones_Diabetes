@@ -10,12 +10,28 @@ public class FoodButtonUI : MonoBehaviour
     public Button button;
 
     private FoodData foodData;
+
     private FoodManager foodManager;
+    private LibraryManager libraryManager;
 
     public void Setup(FoodData data, FoodManager manager)
     {
         foodData = data;
         foodManager = manager;
+        libraryManager = null;
+
+        foodNameText.text = data.foodName;
+        foodImage.sprite = data.foodImage;
+
+        button.onClick.RemoveAllListeners();
+        button.onClick.AddListener(OnButtonClicked);
+    }
+
+    public void Setup(FoodData data, LibraryManager manager)
+    {
+        foodData = data;
+        libraryManager = manager;
+        foodManager = null;
 
         foodNameText.text = data.foodName;
         foodImage.sprite = data.foodImage;
@@ -26,7 +42,14 @@ public class FoodButtonUI : MonoBehaviour
 
     void OnButtonClicked()
     {
-        Debug.Log("Click en: " + foodData.foodName);
-        foodManager.SelectFood(foodData);
+        if (foodManager != null)
+        {
+            foodManager.SelectFood(foodData);
+        }
+
+        if (libraryManager != null)
+        {
+            libraryManager.SelectFood(foodData);
+        }
     }
 }

@@ -4,6 +4,9 @@ using TMPro;
 
 public class LibraryManager : MonoBehaviour
 {
+    [Header("Panels")]
+    public GameObject infoPanel;
+
     [Header("UI")]
     public TMP_Text titleText;
     public Image foodImage;
@@ -17,34 +20,20 @@ public class LibraryManager : MonoBehaviour
     public Color mediumColor = Color.yellow;
     public Color highColor = Color.red;
 
-    [Header("3D")]
-    public Transform foodAnchor;
-
     private FoodData currentFood;
 
     public void SelectFood(FoodData food)
     {
         currentFood = food;
 
+        if (infoPanel != null)
+            infoPanel.SetActive(true);
+
         ShowFood();
     }
 
     void ShowFood()
     {
-        // Ocultar todos los modelos
-        for (int i = 0; i < foodAnchor.childCount; i++)
-        {
-            foodAnchor.GetChild(i).gameObject.SetActive(false);
-        }
-
-        // Mostrar únicamente la primera porción
-        Transform model = foodAnchor.Find(currentFood.portionObjectNames[0]);
-
-        if (model != null)
-        {
-            model.gameObject.SetActive(true);
-        }
-
         // UI
         if (titleText != null)
             titleText.text = currentFood.foodName;

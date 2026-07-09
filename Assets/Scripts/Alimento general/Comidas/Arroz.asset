@@ -16,9 +16,8 @@ MonoBehaviour:
   foodName: Arroz
   foodImage: {fileID: 21300000, guid: 464976de00f128a40bd3b52e4ca68f86, type: 3}
   glycemicLevel: 1
-  libraryTips: "Recomendaci\xF3n de consumo: \xA1Porci\xF3n ideal! Te da la energ\xEDa
-    necesaria sin causar un exceso de az\xFAcar en la sangre.\n\nPorci\xF3n recomendada:
-    1/4 de plato"
+  libraryTips: "\xA1Porci\xF3n ideal! Te da la energ\xEDa necesaria sin causar un
+    exceso de az\xFAcar en la sangre.\n\nPorci\xF3n recomendada: 1/4 de plato"
   category: 0
   portionInfo:
   - "Carbohidratos aprox: 22 g\nNivel gluc\xE9mico: Medio-Alto\nPorci\xF3n: 1/4 de

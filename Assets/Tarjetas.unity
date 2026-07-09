@@ -1887,7 +1887,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &768906607
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5073,7 +5073,7 @@ MonoBehaviour:
   imagenFoto: {fileID: 1119488904}
   txtInfo: {fileID: 39848659}
   colorRecomendado: {r: 0, g: 1, b: 0, a: 1}
-  colorModerado: {r: 1, g: 0.5610321, b: 0, a: 1}
+  colorModerado: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   colorPrecaucion: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &2114929860
 MonoBehaviour:

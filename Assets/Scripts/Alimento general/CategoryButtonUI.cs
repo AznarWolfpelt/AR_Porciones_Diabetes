@@ -9,14 +9,29 @@ public class CategoryButtonUI : MonoBehaviour
     public Image background;
 
     private FoodData.FoodCategory category;
-    private FoodBrowserManager browser;
+    
+    private FoodBrowserManager foodBrowser;
+    private LibraryBrowserManager libraryBrowser;
 
     public void Setup(
         FoodData.FoodCategory newCategory,
         FoodBrowserManager manager)
     {
         category = newCategory;
-        browser = manager;
+        foodBrowser = manager;
+        categoryNameText.text = GetCategoryName(category);
+
+        background.color = GetCategoryColor(category);
+        button.onClick.RemoveAllListeners();
+        button.onClick.AddListener(OnClick);
+    }
+
+    public void Setup
+        (FoodData.FoodCategory newCategory,
+        LibraryBrowserManager manager)
+    {
+        category = newCategory;
+        libraryBrowser = manager;
         categoryNameText.text = GetCategoryName(category);
 
         background.color = GetCategoryColor(category);
@@ -26,7 +41,11 @@ public class CategoryButtonUI : MonoBehaviour
 
     void OnClick()
     {
-        browser.ShowFoods(category);
+        if (foodBrowser != null)
+            foodBrowser.ShowFoods(category);
+
+        if (libraryBrowser != null)
+            libraryBrowser.ShowFoods(category);
     }
 
     string GetCategoryName(FoodData.FoodCategory category)

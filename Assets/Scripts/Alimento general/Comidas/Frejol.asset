@@ -16,9 +16,8 @@ MonoBehaviour:
   foodName: Frejol
   foodImage: {fileID: 21300000, guid: 60113977a9f628e478835f9fe21d0282, type: 3}
   glycemicLevel: 0
-  libraryTips: "Recomendaci\xF3n de consumo: \xA1Porci\xF3n ideal! Aporta prote\xEDna
-    vegetal, hierro y fibra de excelente calidad.\n\nPorci\xF3n recomendada: 1/4
-    de plato"
+  libraryTips: "\xA1Porci\xF3n ideal! Aporta prote\xEDna vegetal, hierro y fibra
+    de excelente calidad.\n\nPorci\xF3n recomendada: 1/4 de plato"
   category: 1
   portionInfo:
   - "Carbohidratos aprox: 20 g\r\nNivel gluc\xE9mico: Bajo\r\nPorci\xF3n: 1/4 de
