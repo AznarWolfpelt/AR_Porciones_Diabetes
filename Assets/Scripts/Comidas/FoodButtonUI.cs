@@ -26,6 +26,7 @@ public class FoodButtonUI : MonoBehaviour
 
     void OnButtonClicked()
     {
+        Debug.Log("Click en: " + foodData.foodName);
         foodManager.SelectFood(foodData);
     }
 }

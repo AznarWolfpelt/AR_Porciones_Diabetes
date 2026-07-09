@@ -962,10 +962,10 @@ RectTransform:
   - {fileID: 1207791855}
   m_Father: {fileID: 1463658875}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 373.43427}
-  m_SizeDelta: {x: 406.16, y: 373.43}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 124.434265}
+  m_SizeDelta: {x: 0.16000366, y: 373.43}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &434243922
 MonoBehaviour:
@@ -1100,13 +1100,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 25108704}
+        m_TargetAssemblyTypeName: FoodBrowserManager, Assembly-CSharp
+        m_MethodName: ShowCategories
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1370,15 +1370,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1862,22 +1862,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1207791855}
     m_Modifications:
-    - target: {fileID: 1974291798310924333, guid: 488bd81a37a57214ab150652ffd5fa2a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 6999428}
-    - target: {fileID: 1974291798310924333, guid: 488bd81a37a57214ab150652ffd5fa2a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 780592109}
-    - target: {fileID: 1974291798310924333, guid: 488bd81a37a57214ab150652ffd5fa2a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
-      value: 
-      objectReference: {fileID: 2021839518}
-    - target: {fileID: 1974291798310924333, guid: 488bd81a37a57214ab150652ffd5fa2a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
-      value: 
-      objectReference: {fileID: 2021839518}
     - target: {fileID: 4205237989516045375, guid: 488bd81a37a57214ab150652ffd5fa2a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1904,11 +1888,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4205237989516045375, guid: 488bd81a37a57214ab150652ffd5fa2a, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 150
+      value: 210
       objectReference: {fileID: 0}
     - target: {fileID: 4205237989516045375, guid: 488bd81a37a57214ab150652ffd5fa2a, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 150
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 4205237989516045375, guid: 488bd81a37a57214ab150652ffd5fa2a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1940,11 +1924,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4205237989516045375, guid: 488bd81a37a57214ab150652ffd5fa2a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 173.08
+      value: 223.36115
       objectReference: {fileID: 0}
     - target: {fileID: 4205237989516045375, guid: 488bd81a37a57214ab150652ffd5fa2a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -75
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 4205237989516045375, guid: 488bd81a37a57214ab150652ffd5fa2a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2250,7 +2234,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -12.286, y: -138.21}
+  m_AnchoredPosition: {x: -12.286011, y: -138.21}
   m_SizeDelta: {x: 20, y: -150.5741}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1119211368
@@ -2296,8 +2280,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1266858099}
   m_HandleRect: {fileID: 1266858098}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.75794107
+  m_Value: 1.0000004
+  m_Size: 0.6631333
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2726,7 +2710,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 30, y: -0.000029534}
-  m_SizeDelta: {x: -60, y: 492.69}
+  m_SizeDelta: {x: -60, y: 563.1296}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1207791856
 MonoBehaviour:
@@ -2748,8 +2732,8 @@ MonoBehaviour:
   m_ChildAlignment: 1
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 150, y: 150}
-  m_Spacing: {x: 20, y: 20}
+  m_CellSize: {x: 210, y: 200}
+  m_Spacing: {x: 25, y: 25}
   m_Constraint: 0
   m_ConstraintCount: 2
 --- !u!1 &1237822908
@@ -3232,8 +3216,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -287, y: -338}
-  m_SizeDelta: {x: 406.1532, y: 498.41998}
+  m_AnchoredPosition: {x: -337.2046, y: -356.4}
+  m_SizeDelta: {x: 506.5623, y: 535.22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1463658876
 MonoBehaviour:
@@ -3357,7 +3341,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8567166215733020306, guid: d34c1cc4efc8cea4e981dae667ebbe9e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3692,11 +3676,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7854858247969917136, guid: aa9bdfc5989b06540842ba62558f9686, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 150
+      value: 210
       objectReference: {fileID: 0}
     - target: {fileID: 7854858247969917136, guid: aa9bdfc5989b06540842ba62558f9686, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 150
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 7854858247969917136, guid: aa9bdfc5989b06540842ba62558f9686, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3728,11 +3712,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7854858247969917136, guid: aa9bdfc5989b06540842ba62558f9686, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 173.08
+      value: 105.861145
       objectReference: {fileID: 0}
     - target: {fileID: 7854858247969917136, guid: aa9bdfc5989b06540842ba62558f9686, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -75
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 7854858247969917136, guid: aa9bdfc5989b06540842ba62558f9686, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4133,6 +4117,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c53205e58501fe44941cf8b7616b563, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FoodManager
+  infoPanel: {fileID: 6999428}
+  portionsPanel: {fileID: 780592109}
   titleText: {fileID: 1762211669}
   foodImage: {fileID: 393719859}
   infoText: {fileID: 1487283597}

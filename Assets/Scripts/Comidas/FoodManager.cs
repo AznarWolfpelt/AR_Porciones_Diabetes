@@ -4,6 +4,10 @@ using TMPro;
 
 public class FoodManager : MonoBehaviour
 {
+    [Header("Panels")]
+    public GameObject infoPanel;
+    public GameObject portionsPanel;
+
     [Header("UI")]
     public TMP_Text titleText;
     public Image foodImage;
@@ -27,7 +31,12 @@ public class FoodManager : MonoBehaviour
     {
         currentFood = food;
 
-        // Mostrar porción recomendada (1/4 por defecto)
+        if (infoPanel != null)
+            infoPanel.SetActive(true);
+
+        if (portionsPanel != null)
+            portionsPanel.SetActive(true);
+
         ShowPortion(0);
     }
 
