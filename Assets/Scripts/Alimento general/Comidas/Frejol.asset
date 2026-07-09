@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b5731f53d1971448b1466fd96024637, type: 3}
+  m_Name: Frejol
+  m_EditorClassIdentifier: Assembly-CSharp::FoodData
+  recommendedPortionIndex: 0
+  foodName: Frejol
+  foodImage: {fileID: 21300000, guid: 60113977a9f628e478835f9fe21d0282, type: 3}
+  glycemicLevel: 0
+  libraryTips: "Recomendaci\xF3n de consumo: \xA1Porci\xF3n ideal! Aporta prote\xEDna
+    vegetal, hierro y fibra de excelente calidad.\n\nPorci\xF3n recomendada: 1/4
+    de plato"
+  category: 1
+  portionInfo:
+  - "Carbohidratos aprox: 20 g\r\nNivel gluc\xE9mico: Bajo\r\nPorci\xF3n: 1/4 de
+    plato\r\n"
+  - "Carbohidratos aprox: 40 g\r\nNivel gluc\xE9mico: Bajo\nPorci\xF3n: 2/4 de plato"
+  - "Carbohidratos aprox: 60 g\r\nNivel gluc\xE9mico: Bajo\nPorci\xF3n: 3/4 de plato "
+  - "Carbohidratos aprox: 80 g\r\nNivel gluc\xE9mico: Bajo\nPorci\xF3n: Entero"
+  portionLevels: 00000000010000000200000003000000
+  portionObjectNames:
+  - frejol_plato_1
+  - frejol_plato_2
+  - frejol_plato_3
+  - frejol_plato_4
