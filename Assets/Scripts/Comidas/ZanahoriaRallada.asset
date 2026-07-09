@@ -15,6 +15,7 @@ MonoBehaviour:
   recommendedPortionIndex: 1
   foodName: Zanahoria Rallada
   foodImage: {fileID: 21300000, guid: 867a12ee7c785b748b5d2675b2db7cc1, type: 3}
+  category: 2
   portionInfo:
   - "Carbohidratos aprox: 4 g\r\nNivel gluc\xE9mico: Bajo\nPorci\xF3n: 1/4 de plato"
   - "Carbohidratos aprox: 12 g\r\nNivel gluc\xE9mico: Bajo\nPorci\xF3n: 2/4 de plato"

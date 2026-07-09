@@ -15,6 +15,7 @@ MonoBehaviour:
   recommendedPortionIndex: 0
   foodName: Frejol
   foodImage: {fileID: 21300000, guid: 60113977a9f628e478835f9fe21d0282, type: 3}
+  category: 1
   portionInfo:
   - "Carbohidratos aprox: 20 g\r\nNivel gluc\xE9mico: Bajo\r\nPorci\xF3n: 1/4 de
     plato\r\n"
