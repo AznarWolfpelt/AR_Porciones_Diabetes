@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a20bd0cb44f0df44881733532fd7beb4
+timeCreated: 1538436503
+licenseType: Store
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 151624
+  packageName: Achievement System
+  packageVersion: 1.0
+  assetPath: Assets/AchievementSystem/Example/Example.unity
+  uploadId: 371754
