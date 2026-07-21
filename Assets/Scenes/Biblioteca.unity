@@ -342,6 +342,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3442e1bf29bf2aa4688c5aa3fe2cb750, type: 2}
   - {fileID: 11400000, guid: 3b8e8bf837898674d881d84b2ae614f3, type: 2}
   - {fileID: 11400000, guid: a223daac71410e248a6ca57d492d4c3a, type: 2}
+  - {fileID: 11400000, guid: f6689e3c29244fc409e5378077e8878e, type: 2}
   libraryManager: {fileID: 265265312}
   categoryButtonPrefab: {fileID: 797143973974888157, guid: aa9bdfc5989b06540842ba62558f9686, type: 3}
   foodButtonPrefab: {fileID: 5707173119181323870, guid: 488bd81a37a57214ab150652ffd5fa2a, type: 3}

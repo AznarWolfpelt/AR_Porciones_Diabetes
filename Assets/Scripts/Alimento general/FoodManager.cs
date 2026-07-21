@@ -55,6 +55,17 @@ public class FoodManager : MonoBehaviour
         if (selectedFood != null)
         {
             selectedFood.gameObject.SetActive(true);
+
+            FloatingFoodLabel label =
+                selectedFood.GetComponentInChildren<FloatingFoodLabel>();
+
+            if (label != null)
+            {
+                label.Setup(
+                    currentFood.foodName,
+                    currentFood.portionDisplayNames[portionIndex],
+                    currentFood.portionWeights[portionIndex]);
+            }
         }
         else
         {

@@ -13,20 +13,30 @@ MonoBehaviour:
   m_Name: Arroz
   m_EditorClassIdentifier: Assembly-CSharp::FoodData
   recommendedPortionIndex: 0
-  foodName: Arroz
+  foodName: Arroz Blanco
   foodImage: {fileID: 21300000, guid: 464976de00f128a40bd3b52e4ca68f86, type: 3}
-  glycemicLevel: 1
-  libraryTips: "\xA1Porci\xF3n ideal! Te da la energ\xEDa necesaria sin causar un
-    exceso de az\xFAcar en la sangre.\n\nPorci\xF3n recomendada: 1/4 de plato"
+  portionDisplayNames:
+  - 1/4 de plato
+  - 1/2 de plato
+  - 3/4 de plato
+  - 1 plato
+  portionWeights:
+  - 65
+  - 130
+  - 195
+  - 260
+  glycemicLevel: 2
+  libraryTips: "Consumirlo junto a prote\xEDnas y verduras ayuda a equilibrar su
+    impacto gluc\xE9mico. Prefiere porciones moderadas si buscas controlar tus niveles
+    de az\xFAcar.\r\n\r\nPorci\xF3n recomendada: 1/4 de plato"
   category: 0
   portionInfo:
-  - "Carbohidratos aprox: 22 g\nNivel gluc\xE9mico: Medio-Alto\nPorci\xF3n: 1/4 de
-    plato\n"
-  - "Carbohidratos aprox: 44 g\r\nNivel gluc\xE9mico: Medio-Alto\r\nPorci\xF3n: 2/4
-    de plato"
-  - "Carbohidratos aprox: 66 g\r\nNivel gluc\xE9mico: Medio-Alto\r\nPorci\xF3n: 3/4
-    de plato "
-  - "Carbohidratos aprox: 88 g\r\nNivel gluc\xE9mico: Medio-Alto\r\nPorci\xF3n: Entero"
+  - "Carbohidratos aprox: 22 g\r\nNivel gluc\xE9mico: Alto\r\nPorci\xF3n: 1/4 de
+    plato"
+  - "Carbohidratos aprox: 44 g\r\nNivel gluc\xE9mico: Alto\r\nPorci\xF3n: 1/2 plato"
+  - "Carbohidratos aprox: 66 g\r\nNivel gluc\xE9mico: Alto\r\nPorci\xF3n: 3/4 de
+    plato"
+  - "Carbohidratos aprox: 88 g\r\nNivel gluc\xE9mico: Alto\r\nPorci\xF3n: 1 plato "
   portionLevels: 00000000010000000200000003000000
   portionObjectNames:
   - arroz_plato_1

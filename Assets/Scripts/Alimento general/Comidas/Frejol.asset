@@ -15,17 +15,29 @@ MonoBehaviour:
   recommendedPortionIndex: 0
   foodName: Frejol
   foodImage: {fileID: 21300000, guid: 60113977a9f628e478835f9fe21d0282, type: 3}
-  glycemicLevel: 0
-  libraryTips: "\xA1Porci\xF3n ideal! Aporta prote\xEDna vegetal, hierro y fibra
-    de excelente calidad.\n\nPorci\xF3n recomendada: 1/4 de plato"
+  portionDisplayNames:
+  - 1/4 de plato
+  - 1/2 plato
+  - 3/4 de plato
+  - 1 plato
+  portionWeights:
+  - 90
+  - 180
+  - 270
+  - 360
+  glycemicLevel: 1
+  libraryTips: "Consume en porciones moderadas y acomp\xE1\xF1alo con vegetales para
+    equilibrar su contenido de carbohidratos.\r\n\r\nPorci\xF3n recomendada: 1/4
+    de plato"
   category: 1
   portionInfo:
-  - "Carbohidratos aprox: 20 g\r\nNivel gluc\xE9mico: Bajo\r\nPorci\xF3n: 1/4 de
-    plato\r\n"
-  - "Carbohidratos aprox: 40 g\r\nNivel gluc\xE9mico: Bajo\nPorci\xF3n: 2/4 de plato"
-  - "Carbohidratos aprox: 60 g\r\nNivel gluc\xE9mico: Bajo\nPorci\xF3n: 3/4 de plato "
-  - "Carbohidratos aprox: 80 g\r\nNivel gluc\xE9mico: Bajo\nPorci\xF3n: Entero"
-  portionLevels: 00000000010000000200000003000000
+  - "Carbohidratos aprox: 26 g\r\nNivel gluc\xE9mico: Medio\r\nPorci\xF3n: 1/4 de
+    plato"
+  - "Carbohidratos aprox: 52 g\r\nNivel gluc\xE9mico: Medio\r\nPorci\xF3n: 1/2 plato"
+  - "Carbohidratos aprox: 78 g\r\nNivel gluc\xE9mico: Medio\r\nPorci\xF3n: 3/4 de
+    plato"
+  - "Carbohidratos aprox: 104 g\r\nNivel gluc\xE9mico: Medio\r\nPorci\xF3n: 1 plato "
+  portionLevels: 00000000020000000300000003000000
   portionObjectNames:
   - frejol_plato_1
   - frejol_plato_2
