@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b5731f53d1971448b1466fd96024637, type: 3}
+  m_Name: BrocoliHervido
+  m_EditorClassIdentifier: Assembly-CSharp::FoodData
+  recommendedPortionIndex: 1
+  foodName: "Br\xF3coli Hervido"
+  foodImage: {fileID: -2888017395154103341, guid: 38996bf24981af045af85a7a8cc49949, type: 3}
+  portionDisplayNames:
+  - 1/4 de plato
+  - 1/2 plato
+  - 3/4 de plato
+  - 1 plato
+  portionWeights:
+  - 35
+  - 70
+  - 105
+  - 140
+  glycemicLevel: 0
+  libraryTips: "Es ideal para consumir en cualquier comida sin restricci\xF3n. Acomp\xE1\xF1alo
+    con prote\xEDnas para una comida balanceada.\r\n\r\nPorci\xF3n recomendada: 2/4
+    de plato"
+  category: 2
+  portionInfo:
+  - "Carbohidratos aprox: 2 g\r\nNivel gluc\xE9mico: Bajo\r\nPorci\xF3n: 1/4 de plato"
+  - "Carbohidratos aprox: 4 g\r\nNivel gluc\xE9mico: Bajo\r\nPorci\xF3n: 1/2 plato"
+  - "Carbohidratos aprox: 6 g\r\nNivel gluc\xE9mico: Bajo\r\nPorci\xF3n: 3/4 de plato"
+  - "Carbohidratos aprox: 8 g\r\nNivel gluc\xE9mico: Bajo\r\nPorci\xF3n: 1 plato "
+  portionLevels: 01000000000000000100000002000000
+  portionObjectNames:
+  - brocoliH_plato_1
+  - brocoliH_plato_2
+  - brocoliH_plato_3
+  - brocoliH_plato_4

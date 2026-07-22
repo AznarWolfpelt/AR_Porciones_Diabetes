@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b5731f53d1971448b1466fd96024637, type: 3}
+  m_Name: Guineo
+  m_EditorClassIdentifier: Assembly-CSharp::FoodData
+  recommendedPortionIndex: 0
+  foodName: Guineo (20 cm)
+  foodImage: {fileID: 2456428759027282185, guid: 45b4d45b95a49cf4eb75ec3d8a0529c7, type: 3}
+  portionDisplayNames:
+  - 1/4 de guineo
+  - 1/2 de guineo
+  - 3/4 de guineo
+  - 1 guineo entero
+  portionWeights:
+  - 48
+  - 96
+  - 144
+  - 192
+  glycemicLevel: 1
+  libraryTips: "Por su contenido de carbohidratos, cons\xFAmelo en porciones peque\xF1as
+    si buscas control gluc\xE9mico. Comb\xEDnalo con prote\xEDnas o grasas para reducir
+    su impacto.\r\n\r\nPorci\xF3n recomendada: 1/4 de guineo"
+  category: 3
+  portionInfo:
+  - "Carbohidratos aprox: 11.75 g\r\nNivel gluc\xE9mico: Medio-Alto\r\nPorci\xF3n:
+    1/4 de guineo"
+  - "Carbohidratos aprox: 23.5 g\r\nNivel gluc\xE9mico: Medio-Alto\r\nPorci\xF3n:
+    1/2 guineo"
+  - "Carbohidratos aprox: 35.25 g\r\nNivel gluc\xE9mico: Medio-Alto\r\nPorci\xF3n:
+    3/4 de guineo"
+  - "Carbohidratos aprox: 47 g\r\nNivel gluc\xE9mico: Medio-Alto\r\nPorci\xF3n: 1
+    guineo entero"
+  portionLevels: 00000000010000000200000003000000
+  portionObjectNames:
+  - Banana_1
+  - Banana_2
+  - Banana_3
+  - Banana_4

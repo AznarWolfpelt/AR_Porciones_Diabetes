@@ -709,6 +709,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3b8e8bf837898674d881d84b2ae614f3, type: 2}
   - {fileID: 11400000, guid: a223daac71410e248a6ca57d492d4c3a, type: 2}
   - {fileID: 11400000, guid: f6689e3c29244fc409e5378077e8878e, type: 2}
+  - {fileID: 11400000, guid: ab95ead285dccc4428663d72fad1ddf1, type: 2}
+  - {fileID: 11400000, guid: 0f7d0fa9cb77a5d4692588239ea7cab2, type: 2}
   foodNameText: {fileID: 288798572}
   questionText: {fileID: 1954053773}
   foodImage: {fileID: 2013791477}
