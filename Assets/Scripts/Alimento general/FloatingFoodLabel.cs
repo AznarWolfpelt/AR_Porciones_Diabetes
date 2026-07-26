@@ -9,10 +9,10 @@ public class FloatingFoodLabel : MonoBehaviour
 
     public void Setup(string name,
                     string portion,
-                    float weight)
+                    string weight)
     {
         foodName.text = name;
         portionText.text = portion;
-        weightText.text = weight.ToString("0.#") + " g";
+        weightText.text = weight + " g";
     }
 }

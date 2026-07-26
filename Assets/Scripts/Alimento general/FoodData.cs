@@ -12,7 +12,7 @@ public class FoodData : ScriptableObject
 
     [Header("Etiquetas flotantes")]
     public string[] portionDisplayNames = new string[4];
-    public float[] portionWeights = new float[4];
+    public string[] portionWeights = new string[4];
 
     [Header("Biblioteca")]
     public GlycemicLevel glycemicLevel;
