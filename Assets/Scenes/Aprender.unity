@@ -3948,6 +3948,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6901642338208066584, guid: d34c1cc4efc8cea4e981dae667ebbe9e, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8567166215733020306, guid: d34c1cc4efc8cea4e981dae667ebbe9e, type: 3}
       propertyPath: m_Name
       value: plato
